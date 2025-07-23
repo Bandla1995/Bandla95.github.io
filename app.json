@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme":"miniapp", 
     "name": "miniApp",
     "slug": "miniApp",
     "version": "1.0.0",
