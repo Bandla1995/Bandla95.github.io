@@ -1,6 +1,6 @@
 {
   "expo": {
-    "scheme":"miniapp", 
+    "scheme": "miniapp",
     "name": "miniApp",
     "slug": "miniApp",
     "version": "1.0.0",
@@ -25,6 +25,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
