@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { Link } from 'expo-router'
 
-const Contact = () => {r
+const Contact = () => {
   return (
     <View style={styles.container}>
           <Text style={styles.title}>Contact Page</Text>
@@ -15,13 +15,14 @@ export default Contact
 
 const styles = StyleSheet.create({
   container: {
+    backgroundColor: '#e0dfe8',
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
   },
   title: {
     fontWeight: 'bold',
-    fontSize: 20,
+    fontSize: 18,
     },
     link: {
     marginVertical: 10,

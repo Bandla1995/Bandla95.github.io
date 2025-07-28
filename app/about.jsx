@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { Link } from 'expo-router'
 
-const about = () => {r
+const About = () => {
   return (
     <View style={styles.container}>
           <Text style={styles.title}>About Page</Text>
@@ -11,18 +11,19 @@ const about = () => {r
   )
 }
 
-export default about
+export default About
 
 const styles = StyleSheet.create({
   container: {
+    backgroundColor: '#e0dfe8',
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
   },
-  title: {
+    title: {
     fontWeight: 'bold',
-    fontSize: 20,
-    },
+    fontSize: 18,
+  },
     link: {
     marginVertical: 10,
     borderBottomWidth: 1,

@@ -14,6 +14,7 @@ const Home = () => {
       </Text>
 
       <Link href="/about" style={styles.link}>About Page</Link>
+       <Link href="/contact" style={styles.link}>Contact Page</Link>
     </View>
   )
 }
@@ -22,20 +23,20 @@ export default Home
 
 const styles = StyleSheet.create({
   container: {
+    backgroundColor: '#e0dfe8',
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    },
+  img: {
+    marginVertical: 18
   },
   title: {
     fontWeight: 'bold',
-    fontSize: 20,
-
-  },
-  img: {
-    marginVertical: 20,
+    fontSize: 18,
   },
    link: {
         marginVertical: 10,
-        borderBottomWidth: 1,
+        borderBottomWidth: 1
   }
 })
