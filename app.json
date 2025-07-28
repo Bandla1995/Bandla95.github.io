@@ -1,8 +1,8 @@
 {
   "expo": {
-    "scheme":"miniapp", 
-    "name": "miniApp",
-    "slug": "miniApp",
+    "scheme": "mini_app",
+    "name": "mini_app",
+    "slug": "miniapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }

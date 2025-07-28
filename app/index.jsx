@@ -1,12 +1,12 @@
 import { StyleSheet, Text, View, Image } from 'react-native'
 import React from 'react'
 import { Link } from 'expo-router'
-import home from '../assets/img/home.png'
+import logo_dark from '../assets/img/logo_dark.png'
 
 const Home = () => {
   return (
     <View style={styles.container}>
-      <Image source={home} style={styles.img} />
+      <Image source={logo_dark} style={styles.img} />
       <Text style={styles.title}>The Number 1</Text>
 
       <Text style={{ marginTop: 10, marginBottom: 30 }}>
