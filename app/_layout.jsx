@@ -5,7 +5,7 @@ import { Colors } from "../constants/Colors"
 import { StatusBar } from "expo-status-bar" 
 
 const RootLayout = () => {
-  const colorScheme = useColorScheme()
+const colorScheme = useColorScheme()
  const theme = Colors[colorScheme] ?? Colors.light
 
   return (
@@ -16,9 +16,8 @@ const RootLayout = () => {
       headerTintColor: theme.title,
       }}> 
         <Stack.Screen name="(auth)" options={{ headerShown: false }} />
-
-
-      <Stack.Screen name="index" options={{ title: 'Home' }} />
+        <Stack.Screen name="(dashboard)" options={{ headerShown: false }} />
+      <Stack.Screen name="index" options={{ title: " Home " }} />
       </Stack>
       </>
 
